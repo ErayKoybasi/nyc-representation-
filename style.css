@@ -1,0 +1,497 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.container{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(./img/nycbg.jpg);
+background-position: center;
+background-size: cover;
+padding-left: 7%;
+padding-right: 7%;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 15%;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+
+}
+
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: wheat;
+}
+
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: wheat;
+    font-size: 100px;
+}
+
+p{
+    color: wheat;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+}
+button{
+    width: 180px;
+    color:black ;
+    font-size: 15px;
+    padding: 15px 0px;
+    background:rgb(245, 222, 179,0.8);
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 45px;
+    margin-left: 200px;
+}
+
+button a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    opacity: 0.7;
+}
+
+
+.card1{
+    background-image: url(./img/bgnewyork.jpg);
+}
+
+.card2{
+    
+    background-image: url(./img/bgnyc.jpg);
+   
+}
+.card3{
+ 
+    background-image: url(./img/new\ york.jpg);
+    
+}
+.card4{
+    
+    background-image: url(./img/newyork2.jpg);
+    }
+
+
+.card:hover{
+    transform:translateY(-10px)
+}
+
+.icon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+
+    
+}
+
+.icon a{
+    text-decoration: none;
+    color:wheat;
+    font-size: 25px;
+    opacity: .7;
+}
+
+
+
+
+.bg-opac{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url(./img/bgempire.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+.crd-center{
+     margin: 0 10% 10%;
+     padding-top: 5%;
+    /* grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr); */
+}
+
+
+.land
+{
+   
+    display: grid;
+    border-radius: 10px;
+    /* padding-top: 65px;
+    padding-left: 65px; */
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    grid-template-columns:repeat(4,1fr);
+    
+    
+}
+
+.land1:hover{
+    transform:translateY(-10px)
+}
+.land2:hover{
+    transform:translateY(-10px)
+}
+
+.land3:hover{
+    transform:translateY(-10px)
+}
+.land4:hover{
+    transform:translateY(-10px)
+}
+
+.land5:hover{
+    transform:translateY(10px)
+}
+
+.land6:hover{
+    transform:translateY(10px)
+}
+
+.land7:hover{
+    transform:translateY(10px)
+}
+
+.land8:hover{
+    transform:translateY(10px)
+}
+
+.info1:hover{
+    transform: translateY(10px);
+}
+
+.info2:hover{
+    transform: translateY(10px);
+}
+
+.info3:hover{
+    transform: translateY(10px);
+}
+
+.land1{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)),url(./img/wallstreet.jpg);
+   
+}
+
+.wall{
+    text-align:center;
+    color: wheat;
+    font-weight: 900;
+    font-size: 15px;
+    padding-top: 50px;
+    line-height: 20px;
+    
+}
+
+.land2{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+   
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)),url(./img/centralpark.png);
+}
+
+.wall2{
+    text-align:center;
+    color: wheat;
+    font-weight: 900;
+    font-size: 15px;
+    padding-top: 50px;
+    line-height: 20px;
+    
+}
+
+
+.land3{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)),url(./img/empire.jpg);
+}
+
+.wall3{
+    text-align:center;
+    color: wheat;
+    font-weight: 900;
+    font-size: 15px;
+    padding-top: 50px;
+    line-height: 20px;
+}
+
+.land4{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)),url(./img/grand-central-terminal-5075970_1280.jpg);
+}
+
+.wall4{
+    text-align:center;
+    color: wheat;
+    font-weight: 900;
+    font-size: 15px;
+    padding-top: 50px;
+    line-height: 20px;
+}
+
+.land5{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)),url(./img/statue-of-liberty-267948_1280.jpg);
+}
+
+.wall5{
+    text-align:center;
+    color: wheat;
+    font-weight: 900;
+    font-size: 15px;
+    padding-top: 35px;
+    line-height: 20px;
+}
+
+.land6{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)),url(./img/times.jpg);
+}
+
+.wall6{
+    text-align:center;
+    color: wheat;
+    font-weight: 900;
+    font-size: 15px;
+    padding-top: 5px;
+    line-height: 20px;
+}
+
+.land7{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)),url(./img/moma.jpg);
+}
+
+.wall7{
+    text-align:center;
+    color: wheat;
+    font-weight: 900;
+    font-size: 15px;
+    padding-top: 35px;
+    line-height: 20px;
+}
+
+.land8{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)),url(./img/guggenheim.jpg);
+}
+
+    .wall8{
+        text-align:center;
+        color: wheat;
+        font-weight: 900;
+        font-size: 15px;
+        padding-top: 5px;
+        line-height: 20px;
+    }
+
+    .info-bg{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(./img/nycbgtaxi.jpg);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+    }
+
+    .info-card{
+        padding-left: 120px;
+        padding-top: 50px;
+        display: grid;
+        border-radius: 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: auto;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        grid-template-columns:repeat(4,1fr);
+    }
+
+    .info1{
+        width: 400px;
+        height: 550px;
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(./img/nycityfacts.jpg);
+    }
+
+    .info2{
+        width: 400px;
+        height: 550px;
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(./img/nyvsla.jpg);
+    }
+
+    .info3{
+        width: 400px;
+        height: 550px;
+        border-radius: 10px;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        cursor:pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+        background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(./img/nyfood.jfif);
+    }
+
+/* @media only screen and (min-width: 768px) {
+
+.info1{
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+}    
+
+} */
